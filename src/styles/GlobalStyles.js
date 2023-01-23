@@ -6,7 +6,6 @@ export default createGlobalStyle`
     --blue1: #0077b9;
     --blue2: #34bacf;
     --blue3: #094f71;
-    http://localhost:3000/: #123346;
 
     --grey: #bababa;
     --grey-light: #e5ecf7;
@@ -32,7 +31,7 @@ export default createGlobalStyle`
 *{
 margin:0;
 padding:0;
-box.sizing:border-box;
+box-sizing:border-box;
 }
 h1{
     color:var(--blue2);
