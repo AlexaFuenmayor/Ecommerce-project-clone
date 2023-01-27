@@ -25,13 +25,14 @@ export default createGlobalStyle`
     --family-title2: proxima_nova_ltsemibold;
     --family-paragraph: sofia_pro_regular;
     --family-logo: Gotham_Rounded_Book;
-    --family-numbers: sofia_pro_light;
+    --familynumbers: sofia_pro_light;
 }
 
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
+
 }
 h1{
     color:var(--blue2);

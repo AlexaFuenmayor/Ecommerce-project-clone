@@ -1,5 +1,5 @@
 import React from "react";
-import { InformationPeludito } from "./styles";
+import { InformationPeludito } from "./styles.js";
 import logoCatDog from "../../Images/SP_LOGO_VA.svg";
 
 const Information = () => {
@@ -16,6 +16,7 @@ const Information = () => {
       </section>
       </div>
     </InformationPeludito>
+
   );
 };
 
