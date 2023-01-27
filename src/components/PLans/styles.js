@@ -2,15 +2,15 @@ import styled from "styled-components";
 import imageBackgraound from "../../Images/backgroud.png";
 
 export const PlansSection = styled.section`
-  background-image: url(${imageBackgraound});
-  height: 100vh;
-  background-repeat: repeat;
-  background-size: 150px;
+    background-image: url(${imageBackgraound});
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: 150px;
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    padding: 0 30px;
+    .container {
+      display: flex;
+      flex-direction: column;
+      padding: 0 30px;
 
     .container-plans {
       display: block;
@@ -34,14 +34,6 @@ export const PlansSection = styled.section`
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin-bottom: 20px;
-        /* height: 150px;
-    background-color: white;
-    margin: 50px auto;
-
-    grid-auto-rows:50px;
-    grid-column-start: 1;
-    grid-column-end:4;
-    border-radius: 8px; */
 
         .table-plans-column-1 {
           border-radius: 8px 0 0 8px;
@@ -65,12 +57,14 @@ export const PlansSection = styled.section`
             color: var(--blue3);
             padding-top: 30px;
             font-family: var(--familynumbers);
+            font-size: 24px;
           }
           p.mensual {
             color: var(--blue3);
             line-height: 30px;
             padding-bottom: 30px;
             font-size: 24px;
+            font-family: var(--family-paragraph);
           }
         }
         .table-plans-column-2 {
@@ -115,6 +109,7 @@ export const PlansSection = styled.section`
             color: var(--yellow4);
             padding-top: 30px;
             font-family: var(--familynumbers);
+            font-size: 24px;
           }
         }
 
@@ -139,6 +134,7 @@ export const PlansSection = styled.section`
             color: var(--blue3);
             padding-top: 30px;
             font-family: var(--familynumbers);
+            font-size: 24px;
           }
 
 
@@ -147,6 +143,8 @@ export const PlansSection = styled.section`
             line-height: 30px;
             padding-bottom: 30px;
             font-size: 24px;
+            font-family: var(--family-paragraph);
+            padding-top:5px;
           }
         }
       }

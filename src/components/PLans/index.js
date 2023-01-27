@@ -19,13 +19,13 @@
                       </div>
                       <div className="table-plans-column-2">
                         <div className="column-yellow">
-                          <p>Popular</p>
+                          <p className="popular-band">Popular</p>
                         </div>
                         <p className="plan-type">Estándar</p>
                         <p className="price-paragraph">$28.000</p>
                         <p className="mensual">Mensual</p>
                         <div className="column-yellow">
-                          <p>Popular</p>
+                          <p className="popular-band">Popular</p>
                         </div>
                       </div>
                       <div className="table-plans-column-3">
