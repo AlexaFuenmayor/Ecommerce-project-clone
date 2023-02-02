@@ -9,7 +9,7 @@ export const SectionServices = styled.section`
   margin-top: 2vh;
 
 
-  section.background-plans {
+  article.background-plans {
     background: linear-gradient(
       0deg,
       #fff 55%,
@@ -17,23 +17,8 @@ export const SectionServices = styled.section`
       #efefef 85%,
       #ffff 85%
     );
-    position: relative;
+
   }
-  /* section.background-plans:before {
-    opacity: 1;
-  } */
-  /* section.background-plans::before {
-    content: "";
-    background-image: url(${bandImage});
-    background-size: 150px;
-    z-index: 1;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    position: absolute;
-    opacity: 1;
-  } */
   .plans-image {
     height: 221px;
     background-color: var(--background-header);
@@ -72,21 +57,23 @@ export const SectionServices = styled.section`
     /* position: absolute; */
     width: 100%;
     justify-content: center;
-    max-width: 100vw;
+    max-width: 95vw;
     align-items: center;
     margin: 100px 0 30px 30px;
-    text-align: center;
+
 
     h1 {
       font-family: var(--familyTitle);
       font-size: 36px;
       text-align: center;
-      width: 100%;
+
     }
     p {
       font-size: 18px;
       line-height: 30px;
       color: var(--grey);
+      text-align: center;
+      max-width: max-content;
     }
   }
 

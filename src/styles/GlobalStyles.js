@@ -31,9 +31,9 @@ export default createGlobalStyle`
 *{
 margin:0;
 padding:0;
-box-sizing:border-box;
-
+box-sizing:border-box
 }
+
 h1{
     color:var(--blue2);
     font-size:36px;
