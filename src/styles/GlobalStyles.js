@@ -21,7 +21,7 @@ export default createGlobalStyle`
     --text-mensual: #846e2d;
     --text-mensual-light: #fff3c9;
 
-    --familyTitle: sofia_pro_bold;
+    --familyTitle: sofia_pro;
     --family-title2: proxima_nova_ltsemibold;
     --family-paragraph: sofia_pro_regular;
     --family-logo: Gotham_Rounded_Book;
