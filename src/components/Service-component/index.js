@@ -75,6 +75,7 @@ const Services = () => {
               <figcaption>Servicios <br/> <strong>Funerarios</strong></figcaption>
             </figure>
             </div>
+            <button className="see-plans-button">VEAMOS LOS PLANES</button>
           </article>
           </section>
         </article>

@@ -5,7 +5,7 @@ export const SectionServices = styled.section`
   background-color: var(--background-header);
   width: 100%;
   height: 77vh;
-  margin-bottom: 7.5vh;
+  margin-bottom:30vh;
   /* margin-top: 2vh; */
 
   article.background-plans {
@@ -172,7 +172,6 @@ export const SectionServices = styled.section`
         color: var(--text);
         font-size: 16px;
         line-height: 24px;
-        outline: rgb(108, 99, 255) dashed 1px;
       }
 
       article.container-services-icons {
@@ -192,6 +191,7 @@ export const SectionServices = styled.section`
         flex-wrap: wrap;
         margin-right: -15px;
         margin-left: -15px;
+        height: 20vh;
 
         figure {
           align-items: center;
@@ -200,13 +200,17 @@ export const SectionServices = styled.section`
           flex: 0 0 33.333333%;
           max-width: 33.333333%;
           position: relative;
-          width: 100%;
+          width:9vw;
+          height: 10vh;
           padding-right: 15px;
           padding-left: 15px;
-
+          
           figcaption {
             background-color: #fff;
             color: var(--text);
+            font-size: 14px;
+            width: auto;
+            height: auto;
           }
           img {
             margin-bottom: 0.5rem;
@@ -215,6 +219,19 @@ export const SectionServices = styled.section`
             border-style: none;
           }
         }
+      }
+      button.see-plans-button{
+        border-radius: 8px;
+        background-color: var(--blue2);
+        margin-bottom: 24px;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+        height: 7vh;
+
+
+
+
       }
     }
     }

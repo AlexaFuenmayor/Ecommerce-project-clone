@@ -118,8 +118,8 @@ export const NavContainer = styled.header`
       display: none;
 
       img.logo {
-    height: 23px;
-    width: 110px;
+    /* height: 24px;
+    width: 21px; */
     justify-content: center;
     /* margin-left: 16px; */
   }
@@ -129,8 +129,8 @@ export const NavContainer = styled.header`
   }
 `;
 export const Burguer = styled.div`
-  width: 35px;
-  height: 30px;
+  width: 21px;
+  height: 22px;
   margin: 10px 10px;
   position: relative;
   cursor: pointer;
@@ -142,14 +142,14 @@ export const Burguer = styled.div`
     border-radius: 2px;
     transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
     width: 100%;
-    height: 4px;
+    height: 2px;
   }
   .nav-icon-8 span:nth-child(1) {
-    top: 0px;
+    top: 3px;
     left: 0px;
   }
   .nav-icon-8 span:nth-child(2) {
-    top: 13px;
+    top: 11px;
     left: 0px;
   }
   .nav-icon-8 span:nth-child(3) {

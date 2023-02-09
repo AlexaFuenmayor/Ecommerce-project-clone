@@ -16,7 +16,6 @@ const Information = () => {
       </section>
       </div>
     </InformationPeludito>
-
   );
 };
 
